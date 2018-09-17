@@ -1,0 +1,155 @@
+/*@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(fonts/Roboto.woff2) format('woff2'), url(fonts/Roboto.tff) format('truetype');
+}*/
+
+
+body {
+    margin: 40px 40px 40px 40px;
+    padding: 0;
+    font-family: Times New Roman;
+    background-image: url(wall1.jpg) ;
+    /*background-image: linear-gradient(to top right, red, blue);*/
+}
+
+.restbody{
+    display: grid;
+    grid-gap: 10px;
+    grid-area:1/1/6/4;
+    margin: 0px 0px 0px 0px;
+    background-color: rgba(160,160,160,0.9)
+}
+
+
+.container {
+    /*background-color: hsla(120, 60%, 25%, 0.3);*/
+
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(10,10%);
+    grid-template-rows: repeat(5,1fr);
+    border-spacing: 20px;
+    
+}
+
+/*h1, h2 {
+    font-family: monospace;
+    text-align: left;
+    
+}*/
+header{
+	background-color: dodgerblue;
+	
+	
+
+}
+
+div > h3 {
+    font-family: Times New Roman;
+    text-align: center;
+    
+}
+nav {
+    display:grid;
+    grid-area:3/1/3/6;
+    grid-template:30% 70%/ 1fr 1fr 1fr;
+    
+    /*background-image: url("matrix1.jpg");*/
+    
+    color: gray;
+    text-align: center;
+    /*padding: 50px;*/
+    align-items:middle;
+
+    
+}
+/*nav > nvblack {*/ /*sous section de nav où on a fait un regrillage dans la selection de grille*/
+    /*grid-area:1/1/1/6;
+    text-align: center;
+    background-color: black; 
+}*/
+
+
+.leftright{
+	background-color: dodgerblue;
+	grid-template-columns: 50px 50px;
+
+}
+
+.your-img {
+    grid-area: 1/4/6/6;
+    
+       
+    padding: 20px /*20px 20px 20px*/;
+}
+    .your-img > img {
+        object-fit: cover;
+        width: 100%;
+        border-radius: 50%;
+        max-height: 100%;
+    }
+
+
+
+/*.fool {
+    grid-area: 11/2/12/5;
+    background-color: rgba(160,160,160,0.3);
+    border-radius: 15px 40px;
+    align-content: center;
+    align-items: center;
+    text-align: center; /*les images aussi sont considérés comme texte ?
+    color: purple;
+    vertical-align: middle;
+    
+}*/
+    .fool img {
+        width: 80px;
+        
+        padding: 20px;
+    }
+.logo:hover {
+    transform: scale(1.2);
+}
+
+
+.titre {
+    grid-area: 1/3/3/6;
+    color: white;
+    text-align: left;
+    vertical-align:middle;
+    align-content: center;
+    align-items: center;
+    padding-left: 30px;
+
+    
+}
+.titre > h5 {
+    color:yellowgreen;
+}
+.banner {
+    grid-area: 1/4/6/6;
+    /*background-color: rgba(160,160,160,0.3);*/
+    background-image: linear-gradient(to top right, red, blue);
+    border-spacing: 20px;
+    padding: 20%;
+    border-radius: 10%;
+
+}
+
+    .banner > h1 {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        color: white;
+    }
+
+.experience1 {
+    grid-area:4/2/6/5;
+}
+.competences1{
+    grid-area:6/2/8/5;
+
+}
+.etudes1{
+    grid-area:8/2/10/5;
+
+}
+
