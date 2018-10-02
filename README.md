@@ -1,7 +1,13 @@
 Ma v-card
 
+_Locky B. project_
+
 # Lien :
 [WEB-V-card](https://lockybounty.github.io/V-card/)
+
+# Infos :
+
+Training with flexbox and usual positionning
 
 # Screenshot :
 
